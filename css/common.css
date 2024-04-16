@@ -86,9 +86,6 @@ ul {list-style:none;}
     height: auto; 
 }
 
-
-
-
 .page3 { background: url('../images/02_bg.png'); } 
 .page3 img:nth-of-type(1) { left: 50px; top: 50px; }
 .page3 img:nth-of-type(2) { left: 50px; top: 114px; }
