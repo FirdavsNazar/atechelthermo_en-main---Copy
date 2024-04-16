@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/common.css">
+  <meta charset="UTF-8">
+  <title>K-CERA</title>
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/jquery.autoAnimation.js"></script>
+  <script>
+    function WinSize(w, h) {
+      window.resizeTo(w, h); //윈도우 사이즈 변경
+    }
+  </script>
+</head>
+
+<body>
+  <div class="sound_wrap">
+  <div class="wrap">
+   <img id="menu_bar" src="images/02_menu bar.png">
+    <!-- <div id="logo" class="move" data-menu=".page2"></div> -->
+
+
+    <div id="menu_wrap">
+      <img  src="images/01_X btn.png " class="close">
+      <div class="flex">
+        <!-- <img class="img" src="images/01_menu-bg.png" alt=""> -->
+        <ul class="main">
+          <li>
+            <div >
+              <ul class="sub1"> 
+                
+                <p class="move" style="	font-weight:bold; font-size: 26px;" data-menu=".page2">CONTENTS</p>
+                <img style="margin:24px 0px 20px 42px" src="images/01_under-bar.png" alt="">
+                
+                <div class="part1">
+                  
+                  <li class="move" data-menu=".page2"> GREETINGS</li>
+                  <li class="move" data-menu=".page3"> HISTORY</li>
+                  <li class="move" data-menu=".page4">BUSINESS PARTNER</li>
+                </div>
+                <img style="margin: 20px 0px 0px 70px;" class="part" src="images/01_dot.png" alt="">
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div >
+              <ul class="sub2"> 
+                <p class="move" style="	font-weight:bold; font-size: 26px;" data-menu=".page5">PRODUCTS OVERVIEW</p>
+                <img style="margin: 18px 0px 10px 155px;" src="images/01_dot.png" alt="">
+                <p class="move" style="	font-weight:bold; font-size: 26px;" data-menu=".page7">PRODUCTS SPECIFICATION</p>
+                <img style="margin: 20px 0px 18px 130px;" class="part" src="images/01_under-bar.png" alt="">
+                <li class="move" st data-menu=".page7"> RX series</li>
+                <li class="move" style="margin: 10px 0px 10px 0px;" data-menu=".page14"> TR series</li>
+                <li class="move" data-menu=".page20"> TRU series</li>
+                <img style="margin: 17px 0px 0px 155px;"  src="images/01_dot.png" alt="">
+                
+               
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <p class="move" style="	font-weight:bold; font-size: 26px;" data-menu=".page22">OVERSEAS NETWORK</p>
+            <img style="margin: 16px 0px 0px 122px;" src="images/01_dot.png" alt="">
+          </li>
+          <li>
+            <p class="move" style="	font-weight:bold; font-size: 26px;" data-menu=".page23 ">CONTACT</p>
+          </li>
+        </ul>
+     </div>
+    </div>
+
+    <div id="btn_nav">
+      <img src="images/02_left.prev btn.png" class="move" data-menu=".page2"></img>
+      <img src="images/02_right.next btn.png" class="move" data-menu=".page16"></img>
+    </div>
+
+    <div class="page page1 childAnimation active">
+      <img src="images/main_title.png" class="t2b" data-delay="200">
+      <img src="images/main_under-bar.png" class="t2b" data-delay="200" data-menu=".page2">
+      <img src="images/main_start.png" class="move t2b" data-delay="200" data-menu=".page2">
+      <img src="images/main_footer_logo1.png" class="t2b" data-delay="100" data-menu=".page2">
+      <img src="images/main_footer_logo2.png" class="t2b" data-delay="100" data-menu=".page2">
+    
+    </div>
+
+    <div class="page page2 childAnimation">
+      <img src="images/02_GREETINGS.png" class="h2b">
+      <img src="images/01_under-bar.png" class="t2b">
+      <img src="images/02_greetings.jpg" class="t2b" id="greeting_image">
+      <!-- <img src="images/02_presign.png" class="t2b"> -->
+    
+    </div>
+
+    <div class="page page3 childAnimation">
+      <img src="images/03_HISTORY.png" class="h2b">
+      <img src="images/01_under-bar.png" class="r2l">
+      <img src="images/03_text.png" class="t2b">
+    </div>
+
+    <div class="page page4 childAnimation">
+      <img src="images/04_title.png" class="h2b">
+      <img src="images/01_under-bar.png" class="r2l">
+      <img src="images/04_slide1.png" class="l2r ">
+      <img src="images/04_slide2.png" class="b2s">
+      <img src="images/04_slide3.png" class="r2l">
+    </div>
+
+    <div class="page page5 childAnimation">
+      <img src="images/05_title.png" class="h2b">
+      <img src="images/01_under-bar.png" class="r2l">
+      <img src="images/05_main_type.png" class="b2s">
+      <img src="images/05_item_img.png" class="b2s">
+ 
+    </div>
+
+    <div class="page page6 childAnimation">
+      <img src="images/05_title.png" class="h2b">
+      <img src="images/01_under-bar.png" class="r2l">
+      <!-- <img src="images/06_type.png" class="r2l"> -->
+      <img src="images/06_items.png" class="b2s">
+    </div>
+
+    <div class="page page7 childAnimation">
+      <img src="images/07_title.png" class="h2b">
+      <img src="images/01_under-bar.png" class="r2l">
+      <img src="images/07_banner_ img.png" class="r2l">
+      <img src="images/07_body.png" class="w2b">
+      <img src="images/07_body2.png" class="w2b">
+     
+    </div>
+
+    <div class="page page8 childAnimation">
+      <img src="images/07_title.png" class="h2b">
+      <img src="images/01_under-bar.png" class="r2l">
+      <img src="images/07_banner_ img.png" class="r2l">
+      <img src="images/08_body1.png" class="r2l">
+      <img src="images/08_body2.png" class="r2l">
+     
+    </div>
+
+    <div class="page page9 childAnimation">
+      <img src="images/07_title.png" class="h2b">
+      <!-- <img src="images/01_under-bar.png" class="r2l"> -->
+      <img src="images/07_banner_ img.png" class="r2l">
+      <img src="images/09_body1.png" class="r2l">
+      <img src="images/09_body2.png" class="r2l">
+    </div>
+
+    <div class="page page10 childAnimation">
+      <img src="images/07_title.png" class="h2b">
+      <img src="images/01_under-bar.png" class="r2l">
+      <img src="images/07_banner_ img.png" class="r2l">
+      <img src="images/10_body1.png" class="r2l">
+      <img src="images/10_body2.png" class="r2l">
+    </div>
+
+    <div class="page page11 childAnimation">
+      <img src="images/07_title.png" class="h2b">
+      <img src="images/01_under-bar.png" class="r2l">
+      <img src="images/07_banner_ img.png" class="r2l">
+      <img src="images/11_body1.png" class="r2l">
+      <img src="images/11_body2.png" class="r2l">
+    </div>
+
+    <div class="page page12 childAnimation">
+      <img src="images/07_title.png" class="h2b">
+      <!-- <img src="images/01_under-bar.png" class="r2l"> -->
+      <img src="images/07_banner_ img.png" class="r2l">
+      <img src="images/12_body1.png" class="r2l">
+      <img src="images/12_body2.png" class="r2l">
+    </div>
+
+    <div class="page page13 childAnimation">
+      <img src="images/07_title.png" class="h2b">
+      <img src="images/01_under-bar.png" class="r2l">
+      <img src="images/07_banner_ img.png" class="r2l">
+      <img src="images/13_body1.png" class="r2l">
+      <img src="images/13_body2.png" class="r2l">
+    </div>
+
+    <div class="page page14 childAnimation">
+      <img src="images/07_title.png" class="h2b">
+      <img src="images/01_under-bar.png" class="r2l">
+      <img src="images/07_banner_ img.png" class="r2l">
+      <img src="images/14_body1.png" class="r2l">
+      <img src="images/14_body2.png" class="r2l">
+    </div>
+
+    <div class="page page15 childAnimation">
+      <img src="images/07_title.png" class="h2b">
+      <img src="images/01_under-bar.png" class="r2l">
+      <img src="images/07_banner_ img.png" class="r2l">
+      <img src="images/15_body1.png" class="r2l">
+      <img src="images/15_body2.png" class="r2l">
+    </div>
+
+    <div class="page page16 childAnimation">
+      <img src="images/07_title.png" class="h2b">
+      <!-- <img src="images/01_under-bar.png" class="r2l"> -->
+      <img src="images/07_banner_ img.png" class="r2l">
+      <img src="images/16_body1.png" class="r2l">
+      <img src="images/16_body2.png" class="r2l">
+    </div>
+
+    <div class="page page17 childAnimation">
+      <img src="images/07_title.png" class="h2b">
+      <!-- <img src="images/01_under-bar.png" class="r2l"> -->
+      <img src="images/07_banner_ img.png" class="r2l">
+      <img src="images/17_body1.png" class="r2l">
+      <img src="images/17_body2.png" class="r2l">
+    </div>
+
+    <div class="page page18 childAnimation">
+      <img src="images/07_title.png" class="h2b">
+      <!-- <img src="images/01_under-bar.png" class="r2l"> -->
+      <img src="images/07_banner_ img.png" class="r2l">
+      <img src="images/18_body1.png" class="r2l">
+      <img src="images/18_body2.png" class="r2l">
+    </div>
+
+    <div class="page page19 childAnimation">
+      <img src="images/07_title.png" class="h2b">
+      <!-- <img src="images/01_under-bar.png" class="r2l"> -->
+      <img src="images/07_banner_ img.png" class="r2l">
+      <img src="images/19_body1.png" class="r2l">
+      <img src="images/19_body2.png" class="r2l">
+    </div>
+
+    <div class="page page20 childAnimation">
+      <img src="images/07_title.png" class="h2b">
+      <!-- <img src="images/01_under-bar.png" class="r2l"> -->
+      <img src="images/07_banner_ img.png" class="r2l">
+      <img src="images/20_body1.png" class="r2l">
+      <img src="images/20_body2.png" class="r2l">
+    </div>
+
+    <div class="page page21 childAnimation">
+      <img src="images/07_title.png" class="h2b">
+      <!-- <img src="images/01_under-bar.png" class="r2l"> -->
+      <img src="images/07_banner_ img.png" class="r2l">
+      <img src="images/21_body1.png" class="r2l">
+      <img src="images/21_body2.png" class="r2l">
+    </div>
+
+    <div class="page page22 childAnimation">
+      <img src="images/22_title.png" class="h2b">
+      <img src="images/01_under-bar.png" class="r2l">
+      <!-- <img src="images/22_status.png img.png" class="r2l"> -->
+      <img src="images/22_body.png" class="rot2">
+   
+    </div>
+
+    <div class="page page23 childAnimation">
+      <img src="images/23_title.png" class="h2b">
+      <img src="images/23_body.png" class="type2">
+    
+    </div>
+
+
+  </div>
+  <img src="images/sound_on.png" id="bgmswitch" data-switch="off">
+</div>
+</body>
+<script src="js/common.js"></script>
+
+</html>
